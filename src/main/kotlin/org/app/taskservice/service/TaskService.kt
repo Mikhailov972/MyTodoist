@@ -1,7 +1,7 @@
 package org.app.taskservice.service
 
 import org.app.taskservice.dao.entity.TaskEntity
-import org.app.taskservice.repository.TaskRepository
+import org.app.taskservice.dao.repository.TaskRepository
 import org.springframework.stereotype.Service
 
 @Service

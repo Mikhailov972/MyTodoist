@@ -1,7 +1,7 @@
 package org.app.taskservice.service
 
 import org.app.taskservice.dao.entity.ProjectEntity
-import org.app.taskservice.repository.ProjectRepository
+import org.app.taskservice.dao.repository.ProjectRepository
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 

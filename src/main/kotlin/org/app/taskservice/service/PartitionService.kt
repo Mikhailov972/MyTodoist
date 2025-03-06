@@ -1,7 +1,7 @@
 package org.app.taskservice.service
 
 import org.app.taskservice.dao.entity.PartitionEntity
-import org.app.taskservice.repository.PartitionRepository
+import org.app.taskservice.dao.repository.PartitionRepository
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 

@@ -1,7 +1,7 @@
 package org.app.taskservice.service
 
 import org.app.taskservice.dao.entity.LabelEntity
-import org.app.taskservice.repository.LabelRepository
+import org.app.taskservice.dao.repository.LabelRepository
 import org.springframework.stereotype.Service
 
 @Service

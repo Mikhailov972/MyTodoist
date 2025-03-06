@@ -1,4 +1,4 @@
-package org.app.taskservice.repository
+package org.app.taskservice.dao.repository
 
 import java.util.UUID
 import org.app.taskservice.dao.entity.LabelEntity
