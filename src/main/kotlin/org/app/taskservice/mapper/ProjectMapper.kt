@@ -4,10 +4,7 @@ import org.app.taskservice.controller.dto.Project
 import org.app.taskservice.dao.entity.ProjectEntity
 import org.mapstruct.Mapper
 import org.mapstruct.MappingConstants
-import org.springframework.stereotype.Component
 
-
-@Component
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 interface ProjectMapper {
 

@@ -35,17 +35,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 
     implementation("org.mapstruct:mapstruct:1.6.3")
-    annotationProcessor("org.mapstruct:mapstruct-processor:1.6.3")
-
-    implementation("org.mapstruct.extensions.spring:mapstruct-spring-annotations:1.1.2")
-
-    // https://mvnrepository.com/artifact/org.mapstruct.extensions.spring/mapstruct-spring-extensions
-    implementation("org.mapstruct.extensions.spring:mapstruct-spring-extensions:1.1.2")
-
-    // https://mvnrepository.com/artifact/org.mapstruct.extensions.spring/mapstruct-spring-test-extensions
-    implementation("org.mapstruct.extensions.spring:mapstruct-spring-test-extensions:1.1.2")
-
-    implementation("org.jetbrains.kotlin.kapt:org.jetbrains.kotlin.kapt.gradle.plugin:2.1.0")
+    kapt("org.mapstruct:mapstruct-processor:1.6.3")
 }
 
 kotlin {

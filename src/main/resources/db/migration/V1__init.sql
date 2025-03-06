@@ -2,7 +2,7 @@ CREATE TABLE projects
 (
     id      UUID PRIMARY KEY,
     title   VARCHAR NOT NULL,
-    user_id UUID    NOT NULL
+    user_id UUID
 );
 
 CREATE TABLE partitions
