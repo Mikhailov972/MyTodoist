@@ -25,17 +25,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-
-    runtimeOnly("org.flywaydb:flyway-database-postgresql:11.3.3")
-
-    implementation("org.postgresql:postgresql:42.7.5")
-
     implementation("org.springframework.boot:spring-boot-starter-web")
-
-    implementation("org.mapstruct:mapstruct:1.6.3")
-    kapt("org.mapstruct:mapstruct-processor:1.6.3")
 }
 
 kotlin {
